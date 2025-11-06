@@ -1,6 +1,6 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
-import { ArrowRight, Github, Linkedin, MousePointer2 } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, MousePointer } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const fadeUp = {
@@ -18,7 +18,7 @@ const Hero = () => {
       {/* 3D Scene */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/N8g2VNcx8Rycz93J/scene.splinecode"
+          scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
@@ -90,7 +90,7 @@ const Hero = () => {
           variants={fadeUp}
           className="pointer-events-none mt-8 inline-flex items-center gap-2 text-xs text-slate-300/80"
         >
-          <MousePointer2 size={14} />
+          <MousePointer size={14} />
           Interact with the 3D scene
         </motion.div>
       </motion.div>
