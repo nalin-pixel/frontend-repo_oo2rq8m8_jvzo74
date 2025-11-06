@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
+import Story from './components/Story';
 import Contact from './components/Contact';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main className="pt-16">
         <Hero />
+        <Story />
         <About />
         <Projects />
         <Contact />

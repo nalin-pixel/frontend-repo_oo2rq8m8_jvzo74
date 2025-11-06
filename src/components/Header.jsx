@@ -15,7 +15,7 @@ const Header = () => {
     <header className="fixed inset-x-0 top-0 z-50 bg-slate-950/60 backdrop-blur supports-[backdrop-filter]:bg-slate-950/40">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#home" className="font-display text-lg font-semibold text-white">
-          <span className="bg-gradient-to-r from-emerald-300 to-cyan-300 bg-clip-text text-transparent">YourName</span>
+          <span className="bg-gradient-to-r from-cyan-300 via-emerald-300 to-fuchsia-300 bg-clip-text text-transparent">YourName</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -57,7 +57,7 @@ const Header = () => {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 rounded-lg bg-emerald-400 px-3 py-2 text-center font-medium text-slate-900"
+              className="mt-2 rounded-lg bg-cyan-300 px-3 py-2 text-center font-medium text-slate-900"
             >
               Hire Me
             </a>
